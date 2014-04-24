@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+       MaCaKi
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <script>
+        function changeNavColor(){ // generates random (r,g,b) values and uses them as the background color. 
+            var r = Math.floor((Math.random()*255)+1);
+            var g = Math.floor((Math.random()*255)+1);
+            var b = Math.floor((Math.random()*255)+1); 
+            document.getElementById("nav").style.backgroundColor = "rgba(" + r + "," +g + "," + b + ",0.5)";
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="grid-1">
+
+            <ul class="nav grid-3 east" id="nav">
+                <li class="grid-4 east selected"><a href="./index.html">home</a></li>
+                <li class="grid-4 east"><a href="./blog">blog</a></li>
+                <li class="grid-4 east"><a href="./contact.html">contact</a></li>
+                <li class="grid-4 east" ><a href="./cv.html">cv</a></li>
+            </ul>    
+
+        </div>    
+
+
+        <div class="grid-2-3 transparent west">
+        <h1>Matthew Cadier Kim</h1>
+        <p> San Francisco State University
+            <br>
+            Graduate Student in Mathematics
+        </p>
+            <br>
+    <!--    <iframe width="100%" height="166" scrolling="no" frameborder="no" 
+                src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F107208545"></iframe> -->
+            <br>
+            <br>
+            <button type="button" onclick="changeNavColor()" class="button"> Color Shuffle</button>
+    </div>    
+    </body>
+
+
+</html>
