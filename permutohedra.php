@@ -152,12 +152,14 @@ the paper linked above. But first,
 <p>
     <br>
     Now we are ready to define a <b>bi-submodular
-    function </b> $f :  $\mathcal{S}(I)$ \rightarrow {\bf R}$ :
+
+    function </b> $f :  \mathcal{S}(I) \rightarrow {\bf R}$ :
     
     <br>
     
     <br>
-    <i><b><u>Definition: </u></b></i>  A function $f: \mathcal{S}\rightarrow {\bf R}$
+
+    <i><b><u>Definition: </u></b></i>  A function $f: \mathcal{S}(I)\rightarrow {\bf R}$
         is bi-submodular if
         $$ f(S) + f(T) \geq f(S\vee T) + f(S\wedge T) $$
     
@@ -167,12 +169,10 @@ the paper linked above. But first,
 
 
 <p>
-    And n the case of type $A$ permutohedra, there is a bijection between
+
+    As in the case of type $A$ permutohedra, there is a bijection between
     the faces of dimension $k$ and
-    the ordered set partition of $I$ of length $n-k$.  For example, 0 dimensional
-    faces correspond to ordered set partitions or length $n$, which is simply a 
-    permutation as desired.  
-    <br>
+    the ordered set partition of $I$ of length $n-k$.  
     <br>
     The $k$ dimensional faces of the signed permutohedron are in bijection with 
     ordered partitions of $I$ into signed subsets. 
