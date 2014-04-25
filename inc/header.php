@@ -5,34 +5,22 @@
         <meta charset="utf-8">
         <title>MaCaKi</title>
 
-        <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="./style/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="./style/pure.css">
         <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" type="text/css" rel="stylesheet">
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
-        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
-        
+      
         <script type="text/x-mathjax-config">
             MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
         </script>
         <script type="text/javascript"
             src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
         </script>
-
-
-
-
-
-
-
-        <!-- CSS code from Bootply.com editor -->
         
         <style type="text/css">
-                        /* Sticky footer styles
-            -------------------------------------------------- */
+      
 
             html,
             body {
@@ -41,7 +29,6 @@
                /* The html and body elements cannot have any padding or margin. */
             }
             * {
-                /* color: white; */
             }
             /* Wrapper for page content to push down footer */
             #wrap {
@@ -49,15 +36,15 @@
               height: auto !important;
               height: 100%;
               /* Negative indent footer by its height */
-              margin: 0 auto -60px;
+              margin: 0 auto -100px;
               /* Pad bottom by footer height */
-              padding: 0 0 60px;
+              padding: 0 0 100px;
             }
 
             /* Set the fixed height of the footer here */
             #footer {
               color: white;
-              height: 60px;
+              height: 100px;
               background-color: #595959;
             }
 
@@ -75,6 +62,12 @@
             #footer > .container {
               padding-left: 15px;
               padding-right: 15px;
+              padding-top: 10px;
+            }
+
+            #footer > .link {
+              padding-left: 10px;
+              padding-right: 10px;
             }
 
             code {
@@ -87,6 +80,19 @@
                 border-bottom: solid black;
                 border-bottom-width: thin;    
                 border-top: solid thin;                
+            }
+
+            .content {
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 15%;
+              padding-right: 15%;
+            }
+
+            .content .entry{
+              padding-top: 20px;
+              padding-bottom: 10px;  
+              border-bottom: solid thin;  
             }
             
             
@@ -120,31 +126,24 @@
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li <?php echo ($_GET["page"]=='cv'? "class=\"active\"" : "") ?>>
-              <a href="?page=cv ">Curriculum Vitae</a></li>
-          <li <?php echo ($_GET["page"]=='contact'? "class=\"active\"" : "") ?>>
-              <a href="?page=contact">Contact</a></li>
-          <li <?php echo ($_GET["page"]=='papers'? "class=\"active\"" : "") ?>>
-              <a href="?page=papers">Papers</a></li>
+         
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teaching <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Calculus I</a></li>
-              <li><a href="#">Calculus II</a></li>
-              <li><a href="#">Math 70</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Tutoring</li>
-              <li><a href="#">ISEEED</a></li>
-              <li><a href="#">Private Tutoring</a></li>
+              <li><a href="?page=online_calculus">Calculus </a></li>
+              <li><a href="?page=algebra">Algebra I and II</a></li>
+              
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="?page=math899">Math 899 Spring 2014</a></li>
-              <li><a href="?page=permutohedra">Permutohedra</a></li>
+              <li><a href="?page=optimization">optimization</a></li>
+              <li><a href="?page=permutohedra">permutohedra</a></li>
             </ul>
           </li>  
+           <li <?php echo ($_GET["page"]=='making'? "class=\"active\"" : "") ?>>
+              <a href="?page=making">Making</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
