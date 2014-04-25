@@ -1,9 +1,8 @@
 
 
-<div class="row">
-    <div class="col-lg-2">
-    </div>
-         <div class="col-lg-8">
+<div class="row content">
+    
+
 <h2>Generalized Permutohedra: </h2><h3>investigating the properties of  
     deformations of type $A$ and type $BC$ orbit polytopes</h3>
 
@@ -11,7 +10,7 @@ The Geometry of Generalized type $A$ and type $BC$ Permutohedra
 <br><br>
 
 <a href= "./papers/Signed_Permutohedra_Arcila_Kim_Barbosa.pdf"> Signed Permutohedra</a>
-- a paper written with Julian Barbosa and David Arcila of Universidad de los Andes
+- a paper written with Julian Romero and David Arcila of Universidad de los Andes
 and Universidad Nacional respectively. 
 
 <br><br>
@@ -226,7 +225,5 @@ the paper linked above. But first,
 
 
 
-         </div>
- <div class="col-lg-2">
-    </div>
+
 </div>

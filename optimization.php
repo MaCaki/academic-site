@@ -5,7 +5,7 @@
     
     
     
-    <div class="row">
+    <div class="row content">
         
            <!--   Main course content will go here -->
             <div class="col-md-8" id="course_content">
@@ -25,15 +25,15 @@
    <!--  WEEK   1 -------------------------------------------------->         
                 <div class="row week">
                     <div>On <b>Friday February 7th</b>, I attended the monthly <a 
-                            href=https://sites.google.com/site/piotrzwiernik/home/algebraic-statistics-seminar-2014">
+                            "href=https://sites.google.com/site/piotrzwiernik/home/algebraic-statistics-seminar-2014">
                     Algebraic Statistics seminar</a>.  I went primarily to see 
                     <a href="http://www.cs.berkeley.edu/~stefje/">Stefanie Jegelka's</a>
                     talk on submodular functions in machine learning (check the side bar for a link to her presentation).
                     Her approach 
                     does not spend much time on the geometric or combinatorial aspects of the base polytope of a submodular 
                     function.  It was in fact Bernd Sturmfels who pointed out
-                    as a side note, that the base polytope, which is sometimes also
-                    refered to as the polymatroid, is in fact a permutohedra. I'm hoping
+                    as a side note, that the submodular polytope, which in other contexts is called a 
+                    polymatroid, is in fact a permutohedra. I'm hoping
                     that this indicates room for work to be done, especially on the
                     geometry of the bi-submodular base polytope. 
                     

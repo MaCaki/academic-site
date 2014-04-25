@@ -3,7 +3,7 @@
 
 
   <!-- Begin page content -->
-  <div class="container"">
+  <div class="container">
     <div class="page-header  text-muted">
       <h1>Matthew Cadier Kim</h1>
        <p class="lead"> 
