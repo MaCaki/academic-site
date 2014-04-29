@@ -9,13 +9,15 @@
         
            <!--   Main course content will go here -->
             <div class="col-md-8" id="course_content">
+
+
             <h3> A Course in Combinatorial Optimization  </h3>
-                <div class ="row">
+                <div class ="entry">
                     <p>
                     &nbsp For the Spring semester of 2014, I will be conducting independent research 
                     under the direction of <a href="http://math.sfsu.edu/federico/"> Federico Ardila</a>
-                    in combinatorial optimization.  More specifically, I will be doing
-                    some background reading on the role of submodular functions in optimization
+                    in combinatorial optimization.  In particular, I will be
+                    looking at the role of submodular functions in optimization
                     problems such as machine learning algorithms, and then exploring the
                     possibility of extending results on submodularity to bi-submodularity. 
                     </p>
@@ -23,7 +25,7 @@
                 
                
    <!--  WEEK   1 -------------------------------------------------->         
-                <div class="row week">
+                <div class="entry ">
                     <div>On <b>Friday February 7th</b>, I attended the monthly <a 
                             "href=https://sites.google.com/site/piotrzwiernik/home/algebraic-statistics-seminar-2014">
                     Algebraic Statistics seminar</a>.  I went primarily to see 
@@ -114,7 +116,7 @@
                 
                 
                 
-                
+                <!-- End of Course Content div -->
             </div>
          
 
@@ -180,10 +182,7 @@
                         Alexander Postnikov's paper <a href="http://arxiv.org/abs/math/0507163">
                         Permutohedra, associahedra, and beyond </a>    
                     </li>
-                    <li class="list-group-item"> Federico Ardila's 
-                        <a href="http://www.youtube.com/playlist?list=PL-XzhVrXIVeQ298S6uCyoDGWNActWwnzZ">
-                            Course on Polytopes</a> hosted on youtube.
-                    </li>
+            
                    
                 </ul>
                 
